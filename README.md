@@ -1,5 +1,23 @@
-# Vue 3 + TypeScript + Vite
+# Documentation
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Installation
+```bash
+git clone https://github.com/deriifirgiawan/katekima-test-app.git
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+cd katekima-test-app
+```
+Create file .env in the root project and put this:
+```bash
+VITE_POKE_URL=https://pokeapi.co/api/v2/berry/
+VITE_ADD_URL=https://fakestoreapi.com/products
+```
+
+### Install All Required Dependency
+```bash
+pnpm install
+```
+
+## Running
+```bash
+pnpm dev
+```
